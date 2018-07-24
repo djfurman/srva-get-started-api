@@ -32,3 +32,5 @@ def fetch_all(event, context):
         'statusCode': 200,
         'body': content,
     })
+    print(response)
+    return response
