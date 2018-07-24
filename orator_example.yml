@@ -1,0 +1,7 @@
+databases:
+    pgsql:
+        driver: pgsql
+        host: serverless-rva.mycoolDB.us-east-1.rds.amazonaws.com
+        database: serverless_rva
+        user: yourSuperUser
+        password: 'superSecret'
